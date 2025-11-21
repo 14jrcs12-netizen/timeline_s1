@@ -2,18 +2,18 @@ import streamlit as st
 
 st.set_page_config(page_title="Sesion 2 | ISIL", layout="centered")
 st.title("Desarrollo de la IA | Timeline")
-st.write("Autor: Jesus Alvarado Huayhuaz | ISIL")
+st.write("Autor: Jefferson Castillo | ISIL")
 st.write("Interactúa con la barra deslizante para explorar los hitos más importantes en la historia de la IA.")
 
 # URLs de imágenes en GitHub (sin carpeta timeline_images)
 base_url = "https://raw.githubusercontent.com/14jrcs12/timeline_s1/main/"
 
 imagenes = {
-    1: base_url + "timeline1.png",
-    2: base_url + "timeline2.png",
-    3: base_url + "timeline3.png",
-    4: base_url + "timeline4.png",
-    5: base_url + "timeline5.png"
+    1: base_url + "Timeline1.png",
+    2: base_url + "Timeline2.png",
+    3: base_url + "Timeline3.png",
+    4: base_url + "Timeline4.png",
+    5: base_url + "Timeline5.png"
 }
 
 # Slider
