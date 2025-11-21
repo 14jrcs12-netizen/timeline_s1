@@ -6,7 +6,7 @@ st.write("Autor: Jefferson Castillo | ISIL")
 st.write("Interactúa con la barra deslizante para explorar los hitos más importantes en la historia de la IA.")
 
 # URLs de imágenes en GitHub (sin carpeta timeline_images)
-base_url = "https://raw.githubusercontent.com/14jrcs12/timeline_s1/main/"
+base_url = "https://raw.githubusercontent.com/14jrcs12-netizen/timeline_s1/main/"
 
 imagenes = {
     1: base_url + "Timeline1.png",
